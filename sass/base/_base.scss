@@ -1,0 +1,36 @@
+.container {
+   max-width: 1220px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.section-title {
+   line-height: 18px;
+   text-transform: uppercase;
+}
+
+.section-text {
+   font-size: 36px;
+   line-height: 41px;
+   text-transform: uppercase;
+   background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.card-title {
+   font-size: 24px;
+   line-height: 28px;
+}
+
+.card-text {
+   line-height: 18px;
+}
+
+.text-buy {
+   margin-top: 10px;
+   font-size: 13px;
+   line-height: 15px;
+}
+
+

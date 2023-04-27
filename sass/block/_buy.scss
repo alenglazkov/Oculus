@@ -1,0 +1,47 @@
+.buy {
+   margin-bottom: 110px;
+   text-align: center;
+   position: relative;
+   overflow-x: hidden;
+
+   &__bg {
+      text-transform: uppercase;
+      // font-family: Inter;
+      font-size: 400px;
+      font-weight: 700;
+      line-height: 400px;
+      background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      opacity: 0.1;
+      position: absolute;
+      z-index: -1;
+      animation: line-text 6s linear 1s infinite;
+   }
+
+   &__img {
+      margin-bottom: 30px;
+   }
+
+   .btn-buy {
+      margin: 0 auto;
+   }
+}
+
+@keyframes line-text {
+   from {
+      transform: translateX(115%);
+      transform-origin: left center;
+   }
+
+   to {
+      transform: translateX(-115%);
+      transform-origin: right center;
+   }
+}
+
+@media screen and (max-width:767px) {
+   .buy {
+      margin-bottom: 80px;
+   }
+}
