@@ -320,7 +320,7 @@ input:focus, button:focus {
 }
 .top {
   min-height: calc(100vh - 81px);
-  background-image: url("../../images/top-big.jpg");
+  background-image: url("../images/top-big.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -449,7 +449,7 @@ input:focus, button:focus {
   grid-column: 2/3;
   width: 280px;
   height: 150px;
-  background-image: url(./../../images/content-bg.jpg);
+  background-image: url(../images/content-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -780,7 +780,7 @@ input:focus, button:focus {
   margin-bottom: 100px;
 }
 .promo__container {
-  background-image: url(./../../images/promo.jpg);
+  background-image: url(../images/promo.jpg);
   min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
